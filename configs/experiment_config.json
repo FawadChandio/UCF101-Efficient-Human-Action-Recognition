@@ -1,0 +1,16 @@
+{
+  "project": "UCF101 Efficient Human Action Recognition",
+  "dataset": "UCF101",
+  "official_split": 1,
+  "num_classes": 101,
+  "candidate_frames": 32,
+  "frame_budgets": [4, 8, 12, 16],
+  "image_size": 224,
+  "backbone": "MobileNetV3-Large",
+  "temporal_aggregation": "feature_level_average_pooling",
+  "sampling_methods": [
+    "uniform",
+    "temporal_difference"
+  ],
+  "random_seed": 42
+}
